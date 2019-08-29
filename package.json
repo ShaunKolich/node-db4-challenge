@@ -1,8 +1,17 @@
 {
+  "name": "webdb-iv-challenge",
+  "version": "1.0.0",
+  "description": "Web DB IV Module Challenge",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "knex": "^0.19.3",
     "nodemon": "^1.19.1",
     "sqlite3": "^4.1.0"
   }
+  
 }
